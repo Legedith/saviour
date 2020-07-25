@@ -1,0 +1,7 @@
+README.md
+setup.py
+bob/__init__.py
+bob_legedith.egg-info/PKG-INFO
+bob_legedith.egg-info/SOURCES.txt
+bob_legedith.egg-info/dependency_links.txt
+bob_legedith.egg-info/top_level.txt
