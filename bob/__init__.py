@@ -5,6 +5,6 @@ Created on Sun Jul 26 02:25:13 2020
 @author: Legedith
 """
 from .style import styleme
-
+from .euler_solution import eulersol
 
 
