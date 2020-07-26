@@ -19,5 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    scripts=['bin/py-style','bin/py-check'],
+    scripts=['bin/saviour-style','bin/saviour-check','bin/saviour-help','bin/saviour-practice','bin/saviour-pseudocode'],
 )

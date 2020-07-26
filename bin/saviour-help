@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+from termcolor import colored
+
+print(colored("-------------------------------",'yellow'))
+print(colored("Saviour Commands",'white'))
+print()
+print(colored("Styling command",'yellow'))
+print(colored("saviour-style <file-name>:",'cyan'), end='') 
+print(colored("  Helps you with styling your code and shows correctly styled pep8 code",'white'))
+print("")
+print(colored("Pseudocode command",'yellow'))
+print(colored("saviour-pseudocode <file-name>:",'cyan'), end='')  
+print(colored("  Converts the given code into pseudocode.",'white'))
+print("")
+print(colored("Programming practice commands",'yellow'))
+print(colored("saviour-practice:",'cyan'), end='')  
+print(colored("  Gives a programming question (based on Project Euler).",'white'))
+print(colored("saviour-check:",'cyan'), end='')  
+print(colored("  Checks if the given answer is correct.",'white'))
+print()
+print(colored("-------------------------------",'yellow'))
