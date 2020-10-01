@@ -15,7 +15,38 @@ We created a python package that helps us with all these issues aka our Saviour.
 ## What it does
 It has three main components, you can view a list of commands by running saviour-help. They are 
 <ul>
+<<<<<<< HEAD
 <li>Saviour-style -> Use for code styling using pep8 standards</li>
 <li>Savior-pseudocode -> Use for generating pseudocode from a program</li>
 <li>Savior-practice -> Use for practicing programming questions offline</li>
 </ul>
+=======
+<li>Saviour-style -> used for code styling using pep8 standards</li>
+<li>Savior-pseudocode -> used for generating pseudocode from a program</li>
+<li>Savior-practice -> Used for practicing programming questions offline</li>
+</ul>
+
+## How We built it
+We have used UiPath automation tool to scrap the questions data from the Project Euler website.
+
+For the code styling, we used autopep8 to conform the python code to pep8 styling standards. 
+
+The pseudocode generator works primarily by replacing certain keywords and functions from a normal line of code to plain-english so it is understandable by anyone.
+
+## Challenges We ran into
+3 of our team members are new to programming with python, so we had some difficulty working with packages.
+The autopep8 library had poor documentation so it took time to get it to work. We had to make the output code not only correct but also highly presentable.
+The pseudocode generation part was particularly difficult as we had to consider a lot of conditions to get it to output in as simple English as possible.
+Other than that, we all live in different time zones, so we had to literally keep track of each other's progress everytime.
+
+## Accomplishments that we're proud of
+We are proud of the fact that we were able to make a program closest to the actual idea we had. 
+
+## What we learned
++ Data scraping using UiPath
++ Pep8 code styling standards
++ Making python packages and command line scripts
+
+## What's next for Savior
+We will work towards building an even smarter pseudocode generator that can work with multiple programming languages. We will try to add more questions to our offline Saviour-practice module.
+>>>>>>> abf18594060545b40c0c9e1975c72ded241fd84e
