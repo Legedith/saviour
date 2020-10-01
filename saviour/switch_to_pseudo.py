@@ -17,6 +17,9 @@
 #You should use its full file path
 
 
+#todo: Add better definations for function conversion
+# for example add(a,b) should be converted to -> A function named 'add' which takes as input two variables named 'a' and 'b'
+
 
 import time
 from logging import debug, info, warning, basicConfig, INFO, DEBUG, WARNING
