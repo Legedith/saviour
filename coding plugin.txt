@@ -1,0 +1,31 @@
+There were three main problems we faced when we started with programming: 
+
+First: We didn't have an active internet connection and since all the coding challenge websites like hackerank and codewars worked only with an internet connection, it was particularly difficult to practice our skills. 
+
+Second: We had to search stackOverflow and other platforms to find solutions for programming problems. But, a lot of times the code would not be explained properly and we had a hard time figuring out what it did.
+
+Third: We didn't knew how to style our code properly or what styling practies to follow. 
+
+So for this hackathon, we created a python package that helps us with all these issues. Introducing Saviour.
+
+It has three main components, you can view a list of commands by running saviour-help.
+
+Let's try styling our code first:
+As you can see, here's a file with pretty bad styling. 
+Let's run saviour-style samplecode.py
+
+As you can see from the output, the code is styled according to pep8 standard now.
+
+Due to lack of comments in this file, I can't understand what this code does. 
+Let's use the saviour-pseudocode command to understand the code.
+* runs the command *
+As you can see, it was calculating the sum of n natural numbers.
+
+Now let's say I want to practice my coding skills but don't have an internet connection. 
+I can run saviour-practice and it'll give me a programming challenge.
+
+I happen to have solved this one already, let's check my answer.
+* runs saviour-check and inputs a wrong answer*
+Looks like I messed up a digit
+* enters the correct answer this time *
+Aha, as you can see, I got the answer right.

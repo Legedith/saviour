@@ -1,1 +1,21 @@
 # SAVIOUR
+
+## Inspiration
+
+There were three main problems we faced when we started with programming: 
+
+First: We didn't have an active internet connection and since all the coding challenge websites like Hackerank and CodeWars worked only with an internet connection, it was particularly difficult to practice our skills. 
+
+Second: We had to search StackOverflow and other platforms to find solutions for programming problems. But, a lot of times the code would not be explained properly and we had a hard time figuring out what it did. Also sometimes we'd write code without properly documenting it or adding comments and then later wonder how it worked.
+
+Third: We didn't knew how to style our code properly or what styling practices to follow. 
+
+We created a python package that helps us with all these issues aka our Saviour.
+
+## What it does
+It has three main components, you can view a list of commands by running saviour-help. They are 
+<ul>
+<li>Saviour-style -> Use for code styling using pep8 standards</li>
+<li>Savior-pseudocode -> Use for generating pseudocode from a program</li>
+<li>Savior-practice -> Use for practicing programming questions offline</li>
+</ul>

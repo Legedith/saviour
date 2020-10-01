@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="saviour-legedith", # Replace with your own username
-    version="0.0.1",
+    name="saviour", # Replace with your own username
+    version="0.0.3",
     author="legedith",
     author_email="jatindehmiwal@gmail.com",
     description="A helper for hackers",
